@@ -24,11 +24,9 @@ const code = `<TextesCode code="${consoleLog}" language="js" />`;
       voluptatibus quidem doloribus. Quisquam voluptatum, quibusdam, voluptates
       quia quae voluptatem, quos quod quas voluptatibus quidem doloribus.
     </TextesParagraphe>
-    <TextesCode
-      :code="`<TextesParagraphe>
+    <TextesCode :code="`<TextesParagraphe>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas voluptatibus quidem doloribus. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas voluptatibus quidem doloribus.
-</TextesParagraphe>`"
-    />
+</TextesParagraphe>`" />
 
     <TitresH2>Code</TitresH2>
 
@@ -37,5 +35,44 @@ const code = `<TextesCode code="${consoleLog}" language="js" />`;
     <TextesCode :code="consoleLog" language="js" />
 
     <TextesCode :code="code" />
+
+    <TitresH2>Gras</TitresH2>
+
+    <TextesParagraphe>
+      <TextesGras> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptates
+        quia quae voluptatem, quos quod quas voluptatibus quidem doloribus. Quisquam voluptatum, quibusdam, voluptates
+        quia
+        quae voluptatem, quos quod quas voluptatibus quidem doloribus. </TextesGras>
+    </TextesParagraphe>
+
+    <TextesCode :code="`<TextesParagraphe><TextesGras>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas voluptatibus quidem doloribus. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas voluptatibus quidem doloribus.
+</TextesGras></TextesParagraphe>`" />
+
+    <TitresH2>Italique</TitresH2>
+
+    <TextesParagraphe>
+      <TextesItalique> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptates
+        quia quae voluptatem, quos quod quas voluptatibus quidem doloribus. Quisquam voluptatum, quibusdam, voluptates
+        quia
+        quae voluptatem, quos quod quas voluptatibus quidem doloribus. </TextesItalique>
+    </TextesParagraphe>
+
+    <TextesCode :code="`<TextesParagraphe><TextesItalique>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas voluptatibus quidem doloribus. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas voluptatibus quidem doloribus.
+</TextesItalique</TextesParagraphe>`" />
+
+    <TitresH2>Souligne</TitresH2>
+
+    <TextesParagraphe>
+      <TextesSouligne> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptates
+        quia quae voluptatem, quos quod quas voluptatibus quidem doloribus. Quisquam voluptatum, quibusdam, voluptates
+        quia
+        quae voluptatem, quos quod quas voluptatibus quidem doloribus. </TextesSouligne>
+    </TextesParagraphe>
+
+    <TextesCode :code="`<TextesParagraphe><TextesSouligne>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas voluptatibus quidem doloribus. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas voluptatibus quidem doloribus.
+</TextesSouligne></TextesParagraphe>`" />
   </Container>
 </template>
