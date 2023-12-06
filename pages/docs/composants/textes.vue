@@ -74,5 +74,18 @@ const code = `<TextesCode code="${consoleLog}" language="js" />`;
     <TextesCode :code="`<TextesParagraphe><TextesSouligne>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas voluptatibus quidem doloribus. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas voluptatibus quidem doloribus.
 </TextesSouligne></TextesParagraphe>`" />
+
+    <TitresH2>Citation</TitresH2>
+
+    <TextesParagraphe>
+      <TextesCitation> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptates
+        quia quae voluptatem, quos quod quas voluptatibus quidem doloribus. Quisquam voluptatum, quibusdam, voluptates
+        quia
+        quae voluptatem, quos quod quas voluptatibus quidem doloribus. </TextesCitation>
+    </TextesParagraphe>
+
+    <TextesCode :code="`<TextesParagraphe><TextesCitation>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas voluptatibus quidem doloribus. Quisquam voluptatum, quibusdam, voluptates quia quae voluptatem, quos quod quas voluptatibus quidem doloribus.
+</TextesSouligne></TextesCitation>`" />
   </Container>
 </template>
