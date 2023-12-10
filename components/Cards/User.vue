@@ -33,6 +33,8 @@ defineProps({
     :avatar="avatar" :info="info" :src="src" :alt="alt">
     <div class=" text-5xl text-gray-400 group-hover:text-gray-800 transition">
       <img :src=src alt="">
+      <!-- slot avatar -->
+      <slot name="avatar" />
     </div>
 
     <div class="text-xl text-gray-100 group-hover:text-black group-hover:underline transition">

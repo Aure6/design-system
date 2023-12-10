@@ -86,6 +86,14 @@ definePageMeta({
           User cards
         </CardsIconLink>
       </li>
+      <li>
+        <CardsIconLink to="/docs/composants/forms">
+          <template #icon>
+            <i class="ri-input-method-line"></i>
+          </template>
+          Formulaires
+        </CardsIconLink>
+      </li>
     </ListsBasic>
   </Container>
 </template>

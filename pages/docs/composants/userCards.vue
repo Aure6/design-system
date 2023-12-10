@@ -47,7 +47,7 @@ const code = `<TextesCode code="${consoleLog}" language="js" />`;
       <CardsUser>
         <template v-slot:avatar>
           <!-- content for the avatar slot -->
-          <img src="../../../public/img/test.png" alt="">
+          <img src="/img/test.png" alt="">
         </template>
         <template #fullname>
           <!-- content for the info slot -->
